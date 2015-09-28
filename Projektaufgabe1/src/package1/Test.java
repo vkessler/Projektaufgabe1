@@ -3,9 +3,10 @@ package package1;
 public class Test {
 
 	public static void main(String[] args) {
-		Author a1 = new Author();
+		//Author a1 = new Author();
 		
-		.readAuthorDataFromConsole();
+		//.readAuthorDataFromConsole();
+		System.out.println("Test yeah funzt");
 		
 
 	}
