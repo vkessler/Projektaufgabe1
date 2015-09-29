@@ -3,9 +3,9 @@ package package1;
 import Prog1Tools.IOTools;
 
 
-public class Author {
+class Author {
 	
-	/* implement nicht mehr veränderbar */ private String firstname, middlename, lastname;
+	/*final ??? */ final private String firstname, middlename, lastname;
 	
 	public String getFirstname() {
 		return firstname;
@@ -19,35 +19,43 @@ public class Author {
 		return lastname;
 	}
 	
+//	{// INIT-Block für Konstruktoren		
+//	this.firstname = firstname;
+//	this.lastname = lastname;
+//	}
+	
 	Author(String firstname, String lastname) {
 		this.firstname = firstname;
-		middlename = null;
-		this.lastname = lastname;
+		this.lastname = lastname;		
+		middlename = null;		
 	}
 	
 	Author(String firstname, String middlename, String lastname){
 		this.firstname = firstname;
-		this.middlename = middlename;
-		this.lastname = lastname;
+		this.lastname = lastname;		
+		this.middlename = middlename;		
 	}
 
 	public String toString() {
 		String m = null;
 		if (middlename != null) 
-			m = middlename;
+			m = middlename + " ";
 		else m = "";
-		return firstname + m + lastname;
+		return firstname + " " + m + lastname;
 	}
 	
-	Author readAuthorDataFromConsole(){
-		firstname = IOTools.readString();
-		lastname = IOTools.readString();
-		System.out.println("Hat der Autor einen Mittelnamen?");
+	public static Author readAuthorDataFromConsole(){
+		System.out.println("Bitte den Vornamen eingeben:");
+		String first = IOTools.readString();
+		System.out.println("Bitte den Nachnamen eingeben:");		
+		String last = IOTools.readString();
+		System.out.println("Hat der Autor einen Mittelnamen (\"true\" oder \"false\" eingeben) ?");
 		if (IOTools.readBoolean()) {
-			middlename = IOTools.readString();
-			return new Author(firstname, middlename, lastname);
+			System.out.println("Bitte Mittelnamen eingeben:");
+			String middle = IOTools.readString();
+			return new Author(first, middle, last);
 		}	
-		else return new Author(firstname, lastname); 
+		else return new Author(first, last); 
 		
 		
 	}
