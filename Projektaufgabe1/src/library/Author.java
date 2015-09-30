@@ -1,11 +1,12 @@
-package package1;
+package library;
+
 
 import Prog1Tools.IOTools;
 
 
 class Author {
 	
-	/*final ??? */ final private String firstname, middlename, lastname;
+	final private String firstname, middlename, lastname;
 	
 	public String getFirstname() {
 		return firstname;
@@ -45,14 +46,10 @@ class Author {
 	}
 	
 	public static Author readAuthorDataFromConsole(){
-		System.out.println("Bitte den Vornamen eingeben:");
-		String first = IOTools.readString();
-		System.out.println("Bitte den Nachnamen eingeben:");		
-		String last = IOTools.readString();
-		System.out.println("Hat der Autor einen Mittelnamen (\"true\" oder \"false\" eingeben) ?");
-		if (IOTools.readBoolean()) {
-			System.out.println("Bitte Mittelnamen eingeben:");
-			String middle = IOTools.readString();
+		String first = IOTools.readString("Bitte den Vornamen eingeben:");
+		String last = IOTools.readString("Bitte den Nachnamen eingeben:");
+		if (IOTools.readBoolean("Hat der Autor einen Mittelnamen (\"true\" oder \"false\" eingeben) ?")) {
+			String middle = IOTools.readString("Bitte Mittelnamen eingeben:");
 			return new Author(first, middle, last);
 		}	
 		else return new Author(first, last); 

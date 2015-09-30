@@ -1,0 +1,149 @@
+Added 21 new book(s).
+Welcome to the library manager!
+Please, enter one of the following commands:
+0 to list all books
+1 to list books filtered by status
+2 to make a reservation
+3 to check out a book
+4 to return a book
+5 to add a new book
+6 to exit.
+0
+Book Catalog:
+	"The Camel Club" by David  Baldacci (ed. 1) from the "Camel Club" series [AVAILABLE] [ID=0]
+	"The Collectors" by David  Baldacci (ed. 3) from the "Camel Club" series [CHECKED OUT] [ID=1]
+	"Stone Cold" by David  Baldacci (ed. 1) from the "Camel Club" series [AVAILABLE] [ID=2]
+	"Divine Justice" by David  Baldacci (ed. 2) from the "Camel Club" series [CHECKED OUT] [ID=3]
+	"Hell's Corner" by David  Baldacci (ed. 1) from the "Camel Club" series [RESERVED] [ID=4]
+	"Split Second" by David  Baldacci (ed. 1) from the "Sean King and Michelle Maxwell" series [CHECKED OUT] [ID=5]
+	"Hour Game" by David  Baldacci (ed. 2) from the "Sean King and Michelle Maxwell" series [AVAILABLE] [ID=6]
+	"Simple Genius" by David  Baldacci (ed. 3) from the "Sean King and Michelle Maxwell" series [AVAILABLE] [ID=7]
+	"First Family" by David  Baldacci (ed. 2) from the "Sean King and Michelle Maxwell" series [RESERVED] [ID=8]
+	"The Sixth Man" by David  Baldacci (ed. 1) from the "Sean King and Michelle Maxwell" series [AVAILABLE] [ID=9]
+	"King and Maxwell" by David  Baldacci (ed. 1) from the "Sean King and Michelle Maxwell" series [CHECKED OUT] [ID=10]
+	"Zero Day" by David  Baldacci (ed. 1) from the "John Puller" series [AVAILABLE] [ID=11]
+	"The Forgotten" by David  Baldacci (ed. 1) from the "John Puller" series [AVAILABLE] [ID=12]
+	"The Escape" by David  Baldacci (ed. 1) from the "John Puller" series [CHECKED OUT] [ID=13]
+	"Absolute Power" by David  Baldacci (ed. 1) [CHECKED OUT] [ID=14]
+	"The Winner" by David  Baldacci (ed. 2) [RESERVED] [ID=15]
+	"A Time to Kill" by John  Grisham (ed. 1) [CHECKED OUT] [ID=16]
+	"The Firm" by John  Grisham (ed. 1) [AVAILABLE] [ID=17]
+	"The Client" by John  Grisham (ed. 2) [RESERVED] [ID=18]
+	"The Pelican Brief" by John  Grisham (ed. 1) [RESERVED] [ID=19]
+	"The Brethren" by John  Grisham (ed. 1) [AVAILABLE] [ID=20]
+Please, enter one of the following commands:
+0 to list all books
+1 to list books filtered by status
+2 to make a reservation
+3 to check out a book
+4 to return a book
+5 to add a new book
+6 to exit.
+1
+Please, enter the status code (0=AVAILABLE,1=RESERVED,2=CHECKED OUT:0
+Search results:
+	"The Camel Club" by David  Baldacci (ed. 1) from the "Camel Club" series [AVAILABLE] [ID=0]
+	"Stone Cold" by David  Baldacci (ed. 1) from the "Camel Club" series [AVAILABLE] [ID=2]
+	"Hour Game" by David  Baldacci (ed. 2) from the "Sean King and Michelle Maxwell" series [AVAILABLE] [ID=6]
+	"Simple Genius" by David  Baldacci (ed. 3) from the "Sean King and Michelle Maxwell" series [AVAILABLE] [ID=7]
+	"The Sixth Man" by David  Baldacci (ed. 1) from the "Sean King and Michelle Maxwell" series [AVAILABLE] [ID=9]
+	"Zero Day" by David  Baldacci (ed. 1) from the "John Puller" series [AVAILABLE] [ID=11]
+	"The Forgotten" by David  Baldacci (ed. 1) from the "John Puller" series [AVAILABLE] [ID=12]
+	"The Firm" by John  Grisham (ed. 1) [AVAILABLE] [ID=17]
+	"The Brethren" by John  Grisham (ed. 1) [AVAILABLE] [ID=20]
+Please, enter one of the following commands:
+0 to list all books
+1 to list books filtered by status
+2 to make a reservation
+3 to check out a book
+4 to return a book
+5 to add a new book
+6 to exit.
+2
+Please, enter book id:0
+The following reservation has been accepted:
+"The Camel Club" by David  Baldacci (ed. 1) from the "Camel Club" series [RESERVED] [ID=0]
+Please, enter one of the following commands:
+0 to list all books
+1 to list books filtered by status
+2 to make a reservation
+3 to check out a book
+4 to return a book
+5 to add a new book
+6 to exit.
+3
+Please, enter book id:0
+You have checked out the following book:
+"The Camel Club" by David  Baldacci (ed. 1) from the "Camel Club" series [CHECKED OUT] [ID=0]
+Please, enter one of the following commands:
+0 to list all books
+1 to list books filtered by status
+2 to make a reservation
+3 to check out a book
+4 to return a book
+5 to add a new book
+6 to exit.
+4
+Please, enter book id:0
+The following book has been returned:
+"The Camel Club" by David  Baldacci (ed. 1) from the "Camel Club" series [AVAILABLE] [ID=0]
+Please, enter one of the following commands:
+0 to list all books
+1 to list books filtered by status
+2 to make a reservation
+3 to check out a book
+4 to return a book
+5 to add a new book
+6 to exit.
+5
+Please, enter the firstname:Andrew
+Please, enter the lastname:Tanenbaum
+Is there a middlename (y)?n
+Please, enter title:Distributed Systems
+Please, enter the edition nummer:2
+Is this book part of a series (y)?n
+Added 1 new book(s).
+The following book has been added to the catalog:
+"Distributed Systems" by Andrew  Tanenbaum (ed. 2) [AVAILABLE] [ID=21]
+Please, enter one of the following commands:
+0 to list all books
+1 to list books filtered by status
+2 to make a reservation
+3 to check out a book
+4 to return a book
+5 to add a new book
+6 to exit.
+0
+Book Catalog:
+	"The Camel Club" by David  Baldacci (ed. 1) from the "Camel Club" series [AVAILABLE] [ID=0]
+	"The Collectors" by David  Baldacci (ed. 3) from the "Camel Club" series [CHECKED OUT] [ID=1]
+	"Stone Cold" by David  Baldacci (ed. 1) from the "Camel Club" series [AVAILABLE] [ID=2]
+	"Divine Justice" by David  Baldacci (ed. 2) from the "Camel Club" series [CHECKED OUT] [ID=3]
+	"Hell's Corner" by David  Baldacci (ed. 1) from the "Camel Club" series [RESERVED] [ID=4]
+	"Split Second" by David  Baldacci (ed. 1) from the "Sean King and Michelle Maxwell" series [CHECKED OUT] [ID=5]
+	"Hour Game" by David  Baldacci (ed. 2) from the "Sean King and Michelle Maxwell" series [AVAILABLE] [ID=6]
+	"Simple Genius" by David  Baldacci (ed. 3) from the "Sean King and Michelle Maxwell" series [AVAILABLE] [ID=7]
+	"First Family" by David  Baldacci (ed. 2) from the "Sean King and Michelle Maxwell" series [RESERVED] [ID=8]
+	"The Sixth Man" by David  Baldacci (ed. 1) from the "Sean King and Michelle Maxwell" series [AVAILABLE] [ID=9]
+	"King and Maxwell" by David  Baldacci (ed. 1) from the "Sean King and Michelle Maxwell" series [CHECKED OUT] [ID=10]
+	"Zero Day" by David  Baldacci (ed. 1) from the "John Puller" series [AVAILABLE] [ID=11]
+	"The Forgotten" by David  Baldacci (ed. 1) from the "John Puller" series [AVAILABLE] [ID=12]
+	"The Escape" by David  Baldacci (ed. 1) from the "John Puller" series [CHECKED OUT] [ID=13]
+	"Absolute Power" by David  Baldacci (ed. 1) [CHECKED OUT] [ID=14]
+	"The Winner" by David  Baldacci (ed. 2) [RESERVED] [ID=15]
+	"A Time to Kill" by John  Grisham (ed. 1) [CHECKED OUT] [ID=16]
+	"The Firm" by John  Grisham (ed. 1) [AVAILABLE] [ID=17]
+	"The Client" by John  Grisham (ed. 2) [RESERVED] [ID=18]
+	"The Pelican Brief" by John  Grisham (ed. 1) [RESERVED] [ID=19]
+	"The Brethren" by John  Grisham (ed. 1) [AVAILABLE] [ID=20]
+	"Distributed Systems" by Andrew  Tanenbaum (ed. 2) [AVAILABLE] [ID=21]
+Please, enter one of the following commands:
+0 to list all books
+1 to list books filtered by status
+2 to make a reservation
+3 to check out a book
+4 to return a book
+5 to add a new book
+6 to exit.
+6
+Byebye!

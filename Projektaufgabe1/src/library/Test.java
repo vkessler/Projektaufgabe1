@@ -1,4 +1,4 @@
-package package1;
+package library;
 
 public class Test {
 
@@ -12,10 +12,12 @@ public class Test {
 		Author a2 = new Author("Robert", "Anton", "Wilson");
 		Book b1 = new Book("Das Auge in der Pyramide", a2, 1, "Illuminatus!");
 		
-		System.out.println(b1.objectID(a2));
+		//System.out.println(b1.objectID(a2));
 		
 		System.out.println(b1);
 		
+		Book b2 = Book.readBookDataFromConsole();
+		System.out.println(b2);
 
 	}
 
